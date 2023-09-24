@@ -1,0 +1,7 @@
+.primary-button {
+  background-color: black;
+  color: white;
+  padding: 12px 48px;
+  text-transform: uppercase;
+  margin-block-start: 48px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Accordion</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <h1>Accordion</h1>
+    </header>
+    <main class="container">
+      <div class="accordion">
+        <h2 class="accordion-header">
+          <button
+            aria-controls="accordion1"
+            id="accordionId1"
+            aria-expanded="false"
+          >
+            <span> Lorem ipsum </span>
+            <div class="toggle">
+              <img aria-hidden="true" src="./assets/chevron-down.svg" alt="" />
+            </div>
+          </button>
+        </h2>
+        <div
+          class="accordion-content"
+          id="accordion1"
+          aria-labelledby="accordionId1"
+        >
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium deserunt dignissimos obcaecati aut voluptate quas
+              doloribus eaque similique inventore labore reiciendis est facilis,
+              sint dolorum. Quaerat officia vitae delectus impedit?
+            </p>
+            <button class="primary-button">See more</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
