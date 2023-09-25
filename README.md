@@ -20,3 +20,5 @@ An accessible accordion component built using vanilla JavaScript, HTML and CSS.
 
 - Making the entire panel clickable means users are unable to highlight any content text. If there are more interactable elements such as links, these would need to be factored into the accordion component logic to prevent event propagation.
 - If I added cursor pointer to the entire panel, it would be difficult to the user to distinguish when they are interacting with the button or closing the panel, especially as there is no hover state designed for the button.
+
+<img width="1552" alt="Screenshot" src="https://github.com/alizehkhan/accordion/assets/59119022/61d05652-c5f5-4ce7-8468-856b3aa1778f">
