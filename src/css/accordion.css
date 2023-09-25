@@ -15,6 +15,7 @@
 .accordion-header .toggle {
   border: 2px solid rgba(0, 0, 0, 0.25);
   border-radius: 50%;
+  padding: 4px;
   flex-shrink: 0;
 }
 
