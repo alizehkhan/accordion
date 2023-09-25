@@ -11,7 +11,7 @@ An accessible accordion component built using vanilla JavaScript, HTML and CSS.
 ## Accessibility
 
 - [x] The title of each `accordion header` is contained in an element with role `button`.
-- [x]Each `accordion header button` is wrapped in an element with role `heading` that has a value set for aria-level that is appropriate for the information architecture of the page (`h2` in this case).
+- [x] Each `accordion header button` is wrapped in an element with role `heading` that has a value set for aria-level that is appropriate for the information architecture of the page (`h2` in this case).
 - [x] If the `accordion content` associated with an `accordion header` is visible, the header button element has `aria-expanded` set to `true`. If the panel is not visible, `aria-expanded` is set to `false`.
 - [x] When the accordion content is collapsed the accordion content is `hidden` from the accessibility tree.
 - [x] The `accordion header button` element has `aria-controls` set to the ID of the element containing the `accordion content`.
